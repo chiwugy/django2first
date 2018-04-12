@@ -25,7 +25,7 @@ SECRET_KEY = '7sa06t2n*#w72b4g^f4bi@+l5y2t-0m)2b6iv&n+r)-_5v@k2)'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1']
+ALLOWED_HOSTS = ['127.0.0.1','139.224.118.206']
 
 
 # Application definition
@@ -57,7 +57,7 @@ TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
         'DIRS': [
-            'C:\\project\\django2first\\templates'
+            '/projects/django2first/templates'
         ],
         'APP_DIRS': True,
         'OPTIONS': {
