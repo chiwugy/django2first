@@ -12,3 +12,5 @@ def index(request):
 def lists(request):
     return render(request, 'blogs/list.html')
 
+def details(request):
+    return
