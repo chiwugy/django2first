@@ -13,4 +13,4 @@ def lists(request):
     return render(request, 'blogs/list.html')
 
 def details(request):
-    return
+    return render(request, 'blogs/list.html')
